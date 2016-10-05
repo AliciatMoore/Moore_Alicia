@@ -1,6 +1,5 @@
 
 
-
 def calcSurf(s):
     return(6*(s**2))
 def display(s):
