@@ -6,7 +6,7 @@ def calcPerim():
     perimeter = (length*2)+(width*2)
   
 def display():
-    print("Your rectangle is","{:0.5f}".format(perimeter ),"sq ft around.")
+    print("Your rectangle is","{:0.5f}".format(perimeter ),"ft around.")
 
 
 
