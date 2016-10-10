@@ -7,28 +7,30 @@ p3 = int(input("Enter the price:"))
 item4 = input("Enter the fourth item: ")
 p4 = int(input("Enter the price:"))
 
-def receipt(one, two):
+def format(one, two):
     print("{:<10}{:.>8}{:0.2f}".format(one, "$", two))
           
 print("<<<<<<<<<< Receipt >>>>>>>>>>")
-receipt(item1, p1)
-receipt(item1, p1)
-receipt(item1, p1)
-receipt(item1, p1)
+format(item1, p1)
+format(item2, p2)
+format(item3, p3)
+format(item4, p4)
 print("\n")
 
 sub = p1 + p2 + p3 + p4
-receipt("Subtotal", sub)
+format("Subtotal", sub)
 
-if sub > 2000:
-    discount = sub*.07
-if sub < 2000:
-    discount = 0
-receipt("Discount", discount)
+def discount():
+    global sub
+    if sub > 2000:
+        return sub*.07
+    if sub < 2000:
+        return 0
+format("Discount", discount())
 
-tax = (sub - discount)*.15
-receipt("Tax", tax)
-receipt("Total", sub - discount + tax)
+tax = (sub - discount())*.15
+format("Tax", tax)
+format("Total", sub - discount() + tax)
 print("______________________________")
 print("* Thank you for your support *")
 
