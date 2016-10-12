@@ -1,6 +1,7 @@
 h = int(input("Please enter the height in inches: "))
 w = int(input("Please enter the weight in pounds: "))
 BMI = 0
+condition = 0
 def calcBMI():
     global BMI, condition
     BMI = 703*(w/h**2)
