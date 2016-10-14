@@ -13,7 +13,6 @@ def calcPoints(a):
         return 3.0
     elif a == "C":
         return 2.0
-    
     elif a == "D":
         return 1.0
     elif a == "F":
