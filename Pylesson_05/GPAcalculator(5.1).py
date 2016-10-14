@@ -6,16 +6,16 @@ Spanish = input("Enter your letter grade for Spanish:")
 Chemistry = input("Enter your letter grade for Chemistry:")
 Photography = input("Enter your letter grade for Photography:")
 
-def calcPoints(a):
-    if a == "A":
+def calcPoints(grade):
+    if grade == "A":
         return 4.0
-    elif a == "B":
+    elif grade == "B":
         return 3.0
-    elif a == "C":
+    elif grade == "C":
         return 2.0
-    elif a == "D":
+    elif grade == "D":
         return 1.0
-    elif a == "F":
+    elif grade == "F":
         return 0
 M = calcPoints(Math)
 E = calcPoints(English)
