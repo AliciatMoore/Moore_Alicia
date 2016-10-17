@@ -1,5 +1,5 @@
-def printf(food,space,price):
-    print("*"+"{:>17}{:.<9}{:10.2f}".format(food,space,price))
+def printf(food,price):
+    print("*"+"{:>17} ........{:10.2f}".format(food, price))
 food1 = input("Please enter item 1: ")
 price1 = float(input("Please enter the price: "))
 space = " "
@@ -19,13 +19,13 @@ toprice = tprice+tax
 print("\n")
 print("<<<<<<<<<<<<<<<<__Receipt__>>>>>>>>>>>>>>>>")
 print("\n")
-printf(food1,space,price1)
-printf(food2,space,price2)
-printf(food3,space,price3)
+printf(food1,price1)
+printf(food2,price2)
+printf(food3,price3)
 print("\n")
-printf("Subtotal:",space,tprice)
-printf("Tax:",space,tax)
-printf("Total:",space,toprice)
+printf("Subtotal:",tprice)
+printf("Tax:",tax)
+printf("Total:",toprice)
 
 print("____________________________________________")
 print("* Thank you for your support *")
