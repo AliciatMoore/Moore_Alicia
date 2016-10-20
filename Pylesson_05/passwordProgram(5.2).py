@@ -1,8 +1,8 @@
 Pass = "123"
 User = "helloworld"
 def passCheck():
-    password = input("Please enter your password: ")
     username = input("Please enter your username: ")
+    password = input("Please enter your password: ")
 
     if ( password == Pass and username == User):
         print("You are granted access!")
@@ -14,7 +14,7 @@ def passCheck():
             print("Your username is incorrect")
             passCheck()
         else: 
-            print("Your username and password is incorrect")
+            print("Your username and password are incorrect")
             passCheck()
 
 passCheck()
