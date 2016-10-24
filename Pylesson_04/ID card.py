@@ -1,5 +1,5 @@
 def printq(a,b):
-    print("*"+"{:>14}{:>18}".format(a,b)+" *")
+    print("*{:>14}{:>18} *".format(a,b))
 fname = input("Enter your first name: ")
 lname = input("Enter your last name: ")
 title = input("Enter your title: ")
