@@ -1,9 +1,10 @@
-def song(word, repeat):
-    output = ""
-    for i in range(repeat + 1):
-        output = output + str(i) + " "
-    print(word * i)
 
+def song(word, repeat):
+    output = word
+    for i in range(1, repeat + 1):
+       output = output + " "
+    print(output)
+    
 song("Na",4)
 song("Na", 4)
 song("Hey", 3)
