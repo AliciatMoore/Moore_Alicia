@@ -1,8 +1,7 @@
-
 def song(word, repeat):
-    output = word
-    for i in range(1, repeat + 1):
-       output = output + " "
+    output =""
+    for i in range(repeat):
+       output = output + word + " "
     print(output)
     
 song("Na",4)
