@@ -9,13 +9,13 @@ Photography = input("Enter your letter grade for Photography:")
 def calcPoints(grade):
     if grade == "A":
         return 4.0
-    elif grade == "B":
+    if grade == "B":
         return 3.0
-    elif grade == "C":
+    if grade == "C":
         return 2.0
-    elif grade == "D":
+    if grade == "D":
         return 1.0
-    elif grade == "F":
+    if grade == "F":
         return 0
 M = calcPoints(Math)
 E = calcPoints(English)

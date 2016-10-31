@@ -1,3 +1,4 @@
+
 choice = input("Would you like to buy..."+
                 "\n A ship"+
                 "\n A house: ")

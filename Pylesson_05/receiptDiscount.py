@@ -23,12 +23,12 @@ format("Subtotal", sub)
 def discount():
     global sub
     if sub > 2000:
-        return sub*.07
+        return sub*.15
     if sub < 2000:
         return 0
 format("Discount", discount())
 
-tax = (sub - discount())*.15
+tax = (sub - discount())*.07
 format("Tax", tax)
 format("Total", sub - discount() + tax)
 print("______________________________")
