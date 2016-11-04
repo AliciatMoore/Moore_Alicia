@@ -12,5 +12,4 @@ def avDigits():
 avDigits()
 print("The average of the digits in", number, "is", average/digits)
 
-print(digits)
-print()
+
