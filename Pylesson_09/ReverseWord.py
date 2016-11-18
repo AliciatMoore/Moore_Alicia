@@ -8,8 +8,8 @@ print(output + "\n")
 
 def reverse(words):
     Output = ""
-    for i in range (0,5):
-        Output += words[i] + " "
-reverse(myList)
-print(Output)
+    for i in range(len(words)-1 , -1 ,-1):
+        Output += words[i] + " " 
+    print(Output)
 
+reverse(myList)
