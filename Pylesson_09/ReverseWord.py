@@ -6,6 +6,7 @@ for i in myList:
     output += i + " "
 print(output + "\n")
 
+print("Reversed...")
 def reverse(words):
     Output = ""
     for i in range(len(words)-1 , -1 ,-1):

@@ -3,11 +3,12 @@ size = int(input("Please enter your sequence size: "))
 
 seq = []
 
-j = 0
+output = ""
 for i in range(0, size):
-    if i == 0 or i == 1:
-        seq[i] = num 
+    if i ==0 or i == 1:
+        seq.append(num)
     else:
-        seq[i] = seq[i - 2] + seq[i - 1]
-    print (str(seq[i]) + " ")
+        seq.append(seq[i - 2] + seq[i - 1])
+    output += str(seq[i]) + " "
+print(output)
         
