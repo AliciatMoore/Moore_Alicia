@@ -1,8 +1,8 @@
 numbers = []
 import random
 for i in range (0, 10):
-    numbers[i] = random.randint(1, 100)
-    print("Numbers...")
+    numbers.append(random.randint(1, 100))
+print("Numbers...")
 
 output = ""
 for i in numbers:
