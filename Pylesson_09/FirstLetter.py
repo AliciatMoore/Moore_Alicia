@@ -1,5 +1,8 @@
 myList = ["I", "like", "to" , "eat", "apple"]
+
 def first(words):
+    output = ""
     for i in words:
-        print(i[0])
+        output += i[0] + " "
+    print(output)
 first(myList)
