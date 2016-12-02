@@ -6,7 +6,6 @@ def gFactor(number):
             return 1
         else:
             return 0
-print(gFactor(79))
 def removePrime():
     for i in nums:
         if gFactor(i) == 0:

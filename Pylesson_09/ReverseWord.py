@@ -8,9 +8,9 @@ print(output + "\n")
 
 print("Reversed...")
 def reverse(words):
-    Output = ""
+    output = ""
     for i in range(len(words) , 0 ,-1):
-        Output += words[i-1] + " " 
-    print(Output)
+        output += words[i-1] + " " 
+    print(output)
 
 reverse(myList)
