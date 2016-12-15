@@ -1,14 +1,14 @@
-go = input("Please enter a sentence: ")
-spList = go.split(" ")
 wordsList = []
+go = input("Please enter a sentence with 16 words: ")
+spList = go.split(" ")
 
 spot = 0
 for i in range(0, 4):
     output = ""
     wordsList.append([])
     for j in range(0, 4):
-        wordsList.append(spList)
-        output += wordsList[i][j]
+        wordsList[i].append(spList[spot])
+        output += "{:15}".format(wordsList[i][j])
         spot += 1
     print(output)
     
