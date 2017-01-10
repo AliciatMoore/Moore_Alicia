@@ -1,7 +1,7 @@
 import math
 class Distance:
     #constructor
-    def __init__(self, x1, y1, x2, y2,D = 0):
+    def __init__(self, x1=" ", y1=" ", x2=" ", y2=" ",D = 0):
         self.xOne = x1
         self.xTwo = x2
         self.yOne = y1
