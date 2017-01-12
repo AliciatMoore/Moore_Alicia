@@ -9,13 +9,10 @@ class Distance:
         self.distance = D
 
     #Modifier
-    def setx1(self, Newx1):
+    def setValues(self, Newx1, Newx2, Newy1, Newy2):
         self.xOne = Newx1
-    def setx2(self, Newx2):
         self.xTwo = Newx2
-    def sety1(self, Newy1):
         self.yOne = Newy1
-    def sety2(self, Newy2):
         self.yTwo = Newy2
 
     #Accessor
@@ -42,10 +39,8 @@ def main():
                
     print("distance = {:0.2f}".format(user1.getDistance()))
           
-    user1.setx1(1)
-    user1.setx2(1)
-    user1.sety1(3)
-    user1.sety2(1)
+    user1.setValues(1,1,3,1)
+  
     print("distance = {:0.2f}".format(user1.getDistance()))
 
 main()
