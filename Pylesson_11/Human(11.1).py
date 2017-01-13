@@ -21,5 +21,17 @@ class Human:
 
 def main():
     hair = input("Enter hair color: ")
-    hair = input("Enter hair color: ")
-    hair = input("Enter hair color: ")
+    eyes = input("Enter eye color: ")
+    skin = input("Enter skin color: ")
+
+    user1 = Human(hair, eyes, skin)
+    print("My info...\n"
+          "Hair: ", user1.gethair(),"\n"
+          "Eyes: ", user1.geteyes(),"\n"
+          "Skin: ", user1.getskin(),"\n")
+    user1.setHES("brown","blue","tan")
+    print("Friend's info...\n"
+          "Hair: ", user1.gethair(),"\n"
+          "Eyes: ", user1.geteyes(),"\n"
+          "Skin: ", user1.getskin())      
+main()
