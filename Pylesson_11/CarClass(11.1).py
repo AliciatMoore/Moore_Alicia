@@ -37,7 +37,7 @@ def main():
           "Engine: ", Car1.getEngine(),"\n"
           "Tires: ", Car1.getTires(),"\n")
     
-    Car1.setCustom("red", "Corinthian leather", "5 litre v8 507hp", "20 Priellis")
+    Car1.setCustom("red", "Corinthian leather", "5 litre v8 507hp", "20\" Priellis")
     print("Your vehicle is ready......")
     print("Paint: ", Car1.getPaint(),"\n"
           "Interior:", Car1.getInterior(),"\n"
