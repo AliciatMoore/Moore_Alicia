@@ -32,14 +32,14 @@ def main():
     if avat == "y":
         avatar = input("Please enter your avatar name: ")
         user1 = User(firstName, lastName, avatar)
-    def __str__(self):
-        print ("Customer Info...\nFirst Name: " + self.firstName + \
+           
+main()
+def __str__(self):
+        return "Customer Info...\nFirst Name: " + self.firstName + \
                                 "\nLast Name: " + self.lastName + \
                                 "\nAvatar : " + self.avatar + \
-                                "\nUser ID#: " + str(self.userID))
-        
-        
-main()       
+                               "\nUser ID#: " + str(self.userID)
+__str__(self)
 return "Customer Info...\nFirst Name: " + user1.getfname() + \
                                 "\nLast Name: " + user1.getlname() + \
                                 "\nAvatar : " + user1.getavat()+ \
