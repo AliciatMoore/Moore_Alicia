@@ -5,7 +5,7 @@ class item:
         self.name = N
         self.category = C
         self.price = p
-        self.UPC = random.randint(100000000, 10000000000)
+        self.UPC = random.randint(1000000000, 9999999999)
 
     def __str__(self):
         return "Manufacturer: " + self.manu + \
