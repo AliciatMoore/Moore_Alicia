@@ -9,7 +9,7 @@ while i < len(equation):
         else:
             equation[i] = (int(equation[i-1]) / int(equation[i + 1]))
         equation.remove(equation[i - 1])
-        equation.remove(equation[i])
+        equation.remove(equation[i + 1])
     i += 1
 i = 0
 while i < len(equation):
@@ -22,6 +22,5 @@ while i < len(equation):
         equation.remove(equation[i])
     i += 1
 print(equation)
-
 
 
