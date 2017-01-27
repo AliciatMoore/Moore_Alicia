@@ -7,6 +7,17 @@ class item:
         self.price = p
         self.UPC = random.randint(1000000000, 9999999999)
 
+    def getmanu(self):
+        return self.manu
+    def getname(self):
+        return self.name
+    def getcategory(self):
+        return self.category
+    def getprice(self):
+        return self.price
+    def getUPC(self):
+        return self.UPC
+
     def __str__(self):
         return "Manufacturer: " + self.manu + \
                "\nName: " + self.name + \
