@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+
+
+h3{color: green;
+	font-family: 'Barrio', cursive;
+}
+
+p{color: purple;
+	font-family: 'Sansita', sans-serif;
+}
+
+a{color: green;}
+
+p:first-letter{font-size: 30px;}
+
+p:first-line{text-decoration: underline;}
+
+p:nth-child(2){
+			color: green;}
