@@ -6,11 +6,17 @@ aside {border: 2px solid green;
 	right: 10px;
 }
 
-p{font-family: 'Sansita', sans-serif;
-color: purple;}
+p{
+	font-family: 'Sansita', sans-serif;
+	color: purple;
+	}
 
 h1{
 	border: 5px solid green;
 	color: orange;
 	text-align:center;
+}
+
+footer{
+	bo
 }
