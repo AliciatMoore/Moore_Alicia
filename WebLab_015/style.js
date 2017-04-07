@@ -1,7 +1,7 @@
 function shapes()
 {
     var x = document.getElementById("canvas");
-    canvas = x.getContext("2d");
+    var canvas = x.getContext("2d");
     canvas.strokeStyle = "green";
 
     canvas.beginPath();
@@ -24,9 +24,9 @@ function shapes()
     canvas.closePath();
     canvas.stroke();
 
-    var g = canvas.createLinearGradient(10, 10, 100, 200);
-    g.addColorStop(0, "blue");
-    g.addColorStop(.6, "white");
+    var g = canvas.createLinearGradient(10, 10, 300, 200);
+    g.addColorStop(0, "red");
+    g.addColorStop(.5, "white");
     g.addColorStop(1, "blue");
 
     canvas.fillStyle = g;
